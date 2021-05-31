@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>db</pattern>
+	    <template>A database administrator uses software to organize, store, 
+	    and allow retrieval of data, such as financial information or customer 
+	    information.  Database administrators must ensure data is available 
+	    to users and is secure from hackers or unauthorized users.  Database 
+	    administrators may work in many different industries.  Visit the below 
+	    link to learn more!
+	    
+	    <br></br>
+	    <link>
+	        <text>
+	            Click here to learn more about database administrators.
+	        </text>
+	        <url>
+	            https://www.careerexplorer.com/careers/database-administrator/
+	        </url>
+	    </link>
+	    </template>
+	</category>
+</aiml>

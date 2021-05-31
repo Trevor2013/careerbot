@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>PM</pattern>
+	    <template>A project managers purpose is to execute projects to support
+	    business needs.  They are often responsible for planning, scheduling,
+	    coordinating and obtaining resources, and execution of projects.  They 
+	    must be willing to fulfill a leadership role.  To learn more about 
+	    project managers, click the link below!
+	    <br></br>
+	    <link>
+	        <text>
+	            Click here to learn more about Project Managers.
+	        </text>
+	        <url>
+	            https://www.thebalancecareers.com/what-a-project-manager-does-all-day-3963577
+	        </url>
+	    </link>
+	    </template>
+	</category>
+</aiml>

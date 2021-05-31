@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>WEBDEV</pattern>
+	    <template>Web Developers, first and foremost, build websites.  However,
+	    there's much more to this career than that. Web developers must ensure 
+	    the content, graphics, and structure of the website are capable of 
+	    meeting both the goals of the user and the customer (or site owner).
+	    Click the link below to learn more about a career in web development.
+	    
+	    <br></br>
+	    <link>
+	        <text>
+	            Click here to learn more about Web Developers.
+	        </text>
+	        <url>
+	            https://www.rasmussen.edu/degrees/technology/blog/everything-about-becoming-web-developer/
+	        </url>
+	    </link>
+	    </template>
+	</category>
+</aiml>

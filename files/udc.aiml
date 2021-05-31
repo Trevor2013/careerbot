@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    
+    <category>
+        <pattern>*</pattern>
+        <template>I have no answer for that.</template>
+    </category>
+    
+  <category>
+    <pattern>HELLO</pattern>
+    <template>Hello! Are you ready to get started?
+        <button>
+            <text>Yes</text>
+            <postback>AnswerYES</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>AnswerNO</postback>
+        </button>
+    </template>
+    </category>
+    
+    <category>
+    <pattern>HI</pattern>
+    <template>Hello! Are you ready to get started?
+        <button>
+            <text>Yes</text>
+            <postback>AnswerYES</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>AnswerNO</postback>
+        </button>
+    </template>
+    </category>
+
+    <category>
+        <pattern>AnswerYES</pattern>
+        <template>Great!  We'll start with a few questions!  What is your name?</template>
+        <postback>MY NAME IS *</postback>
+    </category>
+    
+    <category>
+        <pattern>MY NAME IS *</pattern>
+        <template>Hi <set name="username"><star /></set>!
+        <br></br>
+        Do you enjoy math, logic, and/or problem solving?
+            <button>
+                <text>yes</text>
+                <postback>TECH QUESTION 1</postback>
+            </button>
+            <button>
+                <text>no</text>
+                <postback>NONTECH QUESTION 1</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>TECH QUESTION 1</pattern>
+        <template>Do you enjoy programming?
+            <button>
+                <text>yes</text>
+                <postback>SWERESPONSE</postback>
+            </button>
+            <button>
+                <text>no</text>
+                <postback>DB QUESTION 1</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NONTECH QUESTION 1</pattern>
+        <template>Do you enjoy coordinating projects and tasks and working across teams?
+        <button>
+            <text>yes</text>
+            <postback>PMRESPONSE</postback>
+        </button>
+        <button>
+            <text>no</text>
+            <postback>WEBDEVRESPONSE</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DB QUESTION 1</pattern>
+        <template>Do you enjoy manipulating and structuring data?
+        <button>
+            <text>yes</text>
+            <postback>DBRESPONSE</postback>
+        </button>
+        <button>
+            <text>no</text>
+            <postback>QARESPONSE</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DBRESPONSE</pattern>
+        <template>A career in database administration may be a great fit!  Click below to learn more!
+        <button>
+            <text>Learn More!</text>
+            <postback>DB</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>SWERESPONSE</pattern>
+        <template>Software Engineering may be a fit for you!  Click below to learn more!
+        <button>
+            <text>Learn More!</text>
+            <postback>SWE</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>QARESPONSE</pattern>
+        <template>Quality Assurance may fit your interests!  Click below to learn more!
+        <button>
+            <text>Learn More!</text>
+            <postback>QA</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WEBDEVRESPONSE</pattern>
+        <template>A career in Web Development may be a great fit!  Click below to learn more!
+        <button>
+            <text>Learn More!</text>
+            <postback>WEBDEV</postback>
+        </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>PMRESPONSE</pattern>
+        <template>A career in Project Management may be a great fit!  Click below to learn more!
+        <button>
+            <text>Learn More!</text>
+            <postback>PM</postback>
+        </button>
+        </template>
+    </category>
+
+</aiml>

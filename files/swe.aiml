@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>swe</pattern>
+        <template>Software Engineering is a broad career field.  Almost anytime
+        you interact with a computing system, you are interacting with the 
+        products of software engineering.  Software engineers design, program,
+        and maintain many different types of software products and systems.
+        Visit the below link if you'd like to learn more!
+        <br></br> <br></br>
+        <link>
+            <text>Click here to learn more about software engineering.</text>
+            <url>https://www.fullstackacademy.com/blog/what-do-software-engineers-do#:~:text=Software%20engineers%20are%20computer%20science,and%20run%20network%20control%20systems.</url>
+        </link>
+        </template>
+    </category>
+</aiml>
